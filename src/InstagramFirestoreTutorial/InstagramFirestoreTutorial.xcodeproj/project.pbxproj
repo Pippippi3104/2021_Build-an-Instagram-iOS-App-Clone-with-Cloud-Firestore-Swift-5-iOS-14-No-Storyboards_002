@@ -16,6 +16,11 @@
 		CF74D43F2650B3BC00FA6B4A /* InstagramFirestoreTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D43E2650B3BC00FA6B4A /* InstagramFirestoreTutorialTests.swift */; };
 		CF74D44A2650B3BC00FA6B4A /* InstagramFirestoreTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D4492650B3BC00FA6B4A /* InstagramFirestoreTutorialUITests.swift */; };
 		CF74D45E2650BC2600FA6B4A /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D45D2650BC2600FA6B4A /* MainTabController.swift */; };
+		CF74D4602650BF3C00FA6B4A /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D45F2650BF3C00FA6B4A /* ProfileController.swift */; };
+		CF74D4622650BF5100FA6B4A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D4612650BF5100FA6B4A /* NotificationController.swift */; };
+		CF74D4642650BF6900FA6B4A /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D4632650BF6900FA6B4A /* ImageSelectorController.swift */; };
+		CF74D4662650BF7900FA6B4A /* SearchContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D4652650BF7900FA6B4A /* SearchContoller.swift */; };
+		CF74D4682650BF8600FA6B4A /* FeedContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D4672650BF8600FA6B4A /* FeedContoller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		CF74D4492650B3BC00FA6B4A /* InstagramFirestoreTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramFirestoreTutorialUITests.swift; sourceTree = "<group>"; };
 		CF74D44B2650B3BC00FA6B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF74D45D2650BC2600FA6B4A /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		CF74D45F2650BF3C00FA6B4A /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		CF74D4612650BF5100FA6B4A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CF74D4632650BF6900FA6B4A /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		CF74D4652650BF7900FA6B4A /* SearchContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContoller.swift; sourceTree = "<group>"; };
+		CF74D4672650BF8600FA6B4A /* FeedContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedContoller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +164,11 @@
 			isa = PBXGroup;
 			children = (
 				CF74D45D2650BC2600FA6B4A /* MainTabController.swift */,
+				CF74D4672650BF8600FA6B4A /* FeedContoller.swift */,
+				CF74D4652650BF7900FA6B4A /* SearchContoller.swift */,
+				CF74D4632650BF6900FA6B4A /* ImageSelectorController.swift */,
+				CF74D4612650BF5100FA6B4A /* NotificationController.swift */,
+				CF74D45F2650BF3C00FA6B4A /* ProfileController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -309,6 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF74D4662650BF7900FA6B4A /* SearchContoller.swift in Sources */,
+				CF74D4622650BF5100FA6B4A /* NotificationController.swift in Sources */,
+				CF74D4642650BF6900FA6B4A /* ImageSelectorController.swift in Sources */,
+				CF74D4602650BF3C00FA6B4A /* ProfileController.swift in Sources */,
+				CF74D4682650BF8600FA6B4A /* FeedContoller.swift in Sources */,
 				CF74D42C2650B3BB00FA6B4A /* ViewController.swift in Sources */,
 				CF74D4282650B3BB00FA6B4A /* AppDelegate.swift in Sources */,
 				CF74D45E2650BC2600FA6B4A /* MainTabController.swift in Sources */,
