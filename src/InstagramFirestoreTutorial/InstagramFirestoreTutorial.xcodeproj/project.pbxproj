@@ -15,6 +15,7 @@
 		CF74D4342650B3BC00FA6B4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF74D4322650B3BC00FA6B4A /* LaunchScreen.storyboard */; };
 		CF74D43F2650B3BC00FA6B4A /* InstagramFirestoreTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D43E2650B3BC00FA6B4A /* InstagramFirestoreTutorialTests.swift */; };
 		CF74D44A2650B3BC00FA6B4A /* InstagramFirestoreTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D4492650B3BC00FA6B4A /* InstagramFirestoreTutorialUITests.swift */; };
+		CF74D45E2650BC2600FA6B4A /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D45D2650BC2600FA6B4A /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CF74D4452650B3BC00FA6B4A /* InstagramFirestoreTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramFirestoreTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF74D4492650B3BC00FA6B4A /* InstagramFirestoreTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramFirestoreTutorialUITests.swift; sourceTree = "<group>"; };
 		CF74D44B2650B3BC00FA6B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF74D45D2650BC2600FA6B4A /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		CF74D4592650B43500FA6B4A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CF74D45D2650BC2600FA6B4A /* MainTabController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				CF74D42C2650B3BB00FA6B4A /* ViewController.swift in Sources */,
 				CF74D4282650B3BB00FA6B4A /* AppDelegate.swift in Sources */,
+				CF74D45E2650BC2600FA6B4A /* MainTabController.swift in Sources */,
 				CF74D42A2650B3BB00FA6B4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
