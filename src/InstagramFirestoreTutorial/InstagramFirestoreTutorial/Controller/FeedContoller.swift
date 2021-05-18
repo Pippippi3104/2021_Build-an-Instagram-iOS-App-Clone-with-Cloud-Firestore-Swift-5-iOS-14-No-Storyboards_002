@@ -7,11 +7,58 @@
 
 import UIKit
 
-class FeedController: UIViewController {
+class FeedController: UICollectionViewController {
+    
+    // cofigureUIにてcellを登録する際に利用する
+    private let reuseIdentifier = "Cell"
+    
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .systemBlue
+        configureUI()
+    }
+    
+    // MARK: - Helpers
+    
+    func configureUI() {
+        collectionView.backgroundColor = .white
+        
+        // FeedCellの適応
+        collectionView.register(FeedCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+    }
+}
+
+// MARK: - UICollectionViewDataSource
+
+// cellの設定
+extension FeedController {
+    override func collectionView(_ collectionView: UICollectionView,
+                                 numberOfItemsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView,
+                                 cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier,
+                                                      for: indexPath) as! FeedCell
+        return cell
+    }
+}
+
+// MARK: UICollectionViewDelegateFlowLayout
+
+// cellの詳細設定
+extension FeedController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout,
+                        sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        let width = view.frame.width
+        var height = width + 8 + 40 + 8
+        height += 50
+        height += 60
+        
+        return CGSize(width: width, height: height)
     }
 }
