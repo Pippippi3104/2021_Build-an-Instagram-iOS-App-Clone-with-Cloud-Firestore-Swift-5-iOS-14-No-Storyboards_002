@@ -22,8 +22,7 @@ class MainTabController: UITabBarController {
     func configureViewControllers() {
         view.backgroundColor = .white
         
-        // セルの大きさやセル同士の間隔、セクションごとの余白の大きさなどを設定するプロパティを持っており、
-        // これらを変更することでレイアウトを変更することができます。(UICollectionViewControllerに必要)
+        //セルの大きさやセル同士の間隔、セクションごとの余白の大きさなどを設定するプロパティを持っており、これらを変更することでレイアウトを変更することができます。(UICollectionViewControllerに必要)
         let layout = UICollectionViewFlowLayout()
         
         let feed = templateNavigationController(unselectedImage: #imageLiteral(resourceName: "home_unselected"), selectedImage: #imageLiteral(resourceName: "home_selected"),
@@ -42,7 +41,7 @@ class MainTabController: UITabBarController {
     }
     
     
-    // tab image class (selected and unselected)
+    // tabBarItem image class (selected and unselected)
     func templateNavigationController(unselectedImage: UIImage, selectedImage: UIImage,
                                       rootViewController: UIViewController) -> UINavigationController{
         let nav = UINavigationController(rootViewController: rootViewController)
