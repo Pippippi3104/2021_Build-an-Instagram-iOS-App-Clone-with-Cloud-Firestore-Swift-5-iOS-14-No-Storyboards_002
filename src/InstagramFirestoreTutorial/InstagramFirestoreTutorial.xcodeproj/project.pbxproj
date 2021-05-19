@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CF3A5D542653A566000032C0 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A5D532653A566000032C0 /* FeedCell.swift */; };
 		CF3A5D562653A735000032C0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A5D552653A735000032C0 /* Extensions.swift */; };
+		CF3A5D592655C70F000032C0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A5D582655C70F000032C0 /* LoginController.swift */; };
+		CF3A5D5B2655C738000032C0 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A5D5A2655C738000032C0 /* RegistrationController.swift */; };
 		CF74D4282650B3BB00FA6B4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D4272650B3BB00FA6B4A /* AppDelegate.swift */; };
 		CF74D42A2650B3BB00FA6B4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D4292650B3BB00FA6B4A /* SceneDelegate.swift */; };
 		CF74D42C2650B3BB00FA6B4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D42B2650B3BB00FA6B4A /* ViewController.swift */; };
@@ -45,6 +47,8 @@
 /* Begin PBXFileReference section */
 		CF3A5D532653A566000032C0 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		CF3A5D552653A735000032C0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CF3A5D582655C70F000032C0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CF3A5D5A2655C738000032C0 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		CF74D4242650B3BB00FA6B4A /* InstagramFirestoreTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirestoreTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF74D4272650B3BB00FA6B4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF74D4292650B3BB00FA6B4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF3A5D572655C6FF000032C0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CF3A5D582655C70F000032C0 /* LoginController.swift */,
+				CF3A5D5A2655C738000032C0 /* RegistrationController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		CF74D41B2650B3BB00FA6B4A = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +181,7 @@
 		CF74D4592650B43500FA6B4A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CF3A5D572655C6FF000032C0 /* Authentication */,
 				CF74D45D2650BC2600FA6B4A /* MainTabController.swift */,
 				CF74D4672650BF8600FA6B4A /* FeedContoller.swift */,
 				CF74D4652650BF7900FA6B4A /* SearchContoller.swift */,
@@ -331,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF74D4662650BF7900FA6B4A /* SearchContoller.swift in Sources */,
+				CF3A5D592655C70F000032C0 /* LoginController.swift in Sources */,
 				CF3A5D542653A566000032C0 /* FeedCell.swift in Sources */,
 				CF74D4622650BF5100FA6B4A /* NotificationController.swift in Sources */,
 				CF74D4642650BF6900FA6B4A /* ImageSelectorController.swift in Sources */,
@@ -341,6 +356,7 @@
 				CF74D4282650B3BB00FA6B4A /* AppDelegate.swift in Sources */,
 				CF74D45E2650BC2600FA6B4A /* MainTabController.swift in Sources */,
 				CF74D42A2650B3BB00FA6B4A /* SceneDelegate.swift in Sources */,
+				CF3A5D5B2655C738000032C0 /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
