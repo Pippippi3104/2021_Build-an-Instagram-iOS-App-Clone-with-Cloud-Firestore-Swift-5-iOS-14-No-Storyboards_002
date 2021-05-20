@@ -40,12 +40,18 @@
 # Section001
 
 - Controller の階層
+
   - 基礎：
     - UITabBarController
     - UINavigationController
   - 画面：
     - UICollectionViewController
   - 部品：
+
     - UICollectionViewCell
+
+  - Memo
+    - setHeight(number)
+      - paddingvertical
 
 ### [Return to Contents](#contents)
