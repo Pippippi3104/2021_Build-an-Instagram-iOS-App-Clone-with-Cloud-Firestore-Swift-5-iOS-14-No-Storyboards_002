@@ -11,6 +11,7 @@
 		CF3A5D562653A735000032C0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A5D552653A735000032C0 /* Extensions.swift */; };
 		CF3A5D592655C70F000032C0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A5D582655C70F000032C0 /* LoginController.swift */; };
 		CF3A5D5B2655C738000032C0 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A5D5A2655C738000032C0 /* RegistrationController.swift */; };
+		CF417C3A265C70DC00CEC1C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF417C39265C70DC00CEC1C3 /* CustomTextField.swift */; };
 		CF74D4282650B3BB00FA6B4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D4272650B3BB00FA6B4A /* AppDelegate.swift */; };
 		CF74D42A2650B3BB00FA6B4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D4292650B3BB00FA6B4A /* SceneDelegate.swift */; };
 		CF74D42C2650B3BB00FA6B4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D42B2650B3BB00FA6B4A /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 		CF3A5D552653A735000032C0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CF3A5D582655C70F000032C0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		CF3A5D5A2655C738000032C0 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		CF417C39265C70DC00CEC1C3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		CF74D4242650B3BB00FA6B4A /* InstagramFirestoreTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirestoreTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF74D4272650B3BB00FA6B4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF74D4292650B3BB00FA6B4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				CF3A5D532653A566000032C0 /* FeedCell.swift */,
+				CF417C39265C70DC00CEC1C3 /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF417C3A265C70DC00CEC1C3 /* CustomTextField.swift in Sources */,
 				CF74D4662650BF7900FA6B4A /* SearchContoller.swift in Sources */,
 				CF3A5D592655C70F000032C0 /* LoginController.swift in Sources */,
 				CF3A5D542653A566000032C0 /* FeedCell.swift in Sources */,
