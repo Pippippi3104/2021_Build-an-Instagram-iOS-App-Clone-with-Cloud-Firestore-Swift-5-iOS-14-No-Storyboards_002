@@ -38,6 +38,7 @@ import UIKit
 //}
 
 extension UIButton {
+    // first: 前半の細文字  second: 後半の太文字
     func attributedTitle(firstPart: String, secondPart: String) {
         let atts: [NSAttributedString.Key: Any] = [.foregroundColor: UIColor(white: 1, alpha: 0.87), .font: UIFont.systemFont(ofSize: 16)]
         let attributedTitle = NSMutableAttributedString(string: "\(firstPart) ", attributes: atts)
