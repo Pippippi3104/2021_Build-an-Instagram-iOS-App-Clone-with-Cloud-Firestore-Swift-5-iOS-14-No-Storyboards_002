@@ -9,17 +9,18 @@
 import UIKit
 //import JGProgressHUD
 
-//extension UIViewController {
+extension UIViewController {
 //    static let hud = JGProgressHUD(style: .dark)
-//
-//    func configureGradientLayer() {
-//        let gradient = CAGradientLayer()
-//        gradient.colors = [UIColor.systemPurple.cgColor, UIColor.systemBlue.cgColor]
-//        gradient.locations = [0, 1]
-//        view.layer.addSublayer(gradient)
-//        gradient.frame = view.frame
-//    }
-//
+
+    // 背景
+    func configureGradientLayer() {
+        let gradient = CAGradientLayer()
+        gradient.colors = [UIColor.systemPurple.cgColor, UIColor.systemBlue.cgColor]
+        gradient.locations = [0, 1]
+        view.layer.addSublayer(gradient)
+        gradient.frame = view.frame
+    }
+
 //    func showLoader(_ show: Bool) {
 //        view.endEditing(true)
 //
@@ -35,7 +36,7 @@ import UIKit
 //        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
 //        present(alert, animated: true, completion: nil)
 //    }
-//}
+}
 
 extension UIButton {
     // first: 前半の細文字  second: 後半の太文字
