@@ -66,11 +66,11 @@
 
     - UICollectionViewCell
 
-  - Memo
-    - setHeight(number)
-      - paddingvertical
-    - [Struct](https://qiita.com/yuinchirn/items/98b568d595650eca3334)
-      - 参照型であるクラスは複数の変数に代入されても、一つのオブジェクトを共有しているので、いずれかの変数の値が変更されれば、他の変数にもそれが反映される。
-      - 値型である構造体は、複数の変数に代入された場合、新しい構造体として代入されるので、いずれかの変数が変更されても他の変数にその変更は影響しない。
+- Memo
+  - setHeight(number)
+    - paddingvertical
+  - [Struct](https://qiita.com/yuinchirn/items/98b568d595650eca3334)
+    - 参照型であるクラスは複数の変数に代入されても、一つのオブジェクトを共有しているので、いずれかの変数の値が変更されれば、他の変数にもそれが反映される。
+    - 値型である構造体は、複数の変数に代入された場合、新しい構造体として代入されるので、いずれかの変数が変更されても他の変数にその変更は影響しない。
 
 ### [Return to Contents](#contents)
