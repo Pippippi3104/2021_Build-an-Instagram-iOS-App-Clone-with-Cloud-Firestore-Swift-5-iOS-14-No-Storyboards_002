@@ -21,6 +21,22 @@
 # Section002
 
 - Memo
+  - [MVC](https://qiita.com/s_emoto/items/975cc38a3e0de462966a)
+    - Model
+      - システムの中でビジネスロジックを担当する
+    - View
+      - 表示や入出力といった処理をする
+    - Controller
+      - ユーザーの入力に基づき，Model と View を制御する
+  - [MVVM](https://qiita.com/s_emoto/items/b000a5c076f3d6076972)
+    - Model
+      - ビジネスロジック（通信処理や DB 操作など）
+      - データ型の定義
+    - View
+      - ViewModel のデータを、データバインディングで自動的に描画する
+    - ViewModel
+      - View と Model 間の伝達
+      - View のための状態保持
   - [contentMode = .scaleAspectFill](https://qiita.com/Saayaman/items/a23519ff5a8ad287cf20)
     - Aspect Fill はスペースを空けないで Bounds 内に収めます。
     - ただし、Bounds のサイズを無視するので、Storyboard で Clip to Bounds にチェックを入れる必要があります。
@@ -53,5 +69,8 @@
   - Memo
     - setHeight(number)
       - paddingvertical
+    - [Struct](https://qiita.com/yuinchirn/items/98b568d595650eca3334)
+      - 参照型であるクラスは複数の変数に代入されても、一つのオブジェクトを共有しているので、いずれかの変数の値が変更されれば、他の変数にもそれが反映される。
+      - 値型である構造体は、複数の変数に代入された場合、新しい構造体として代入されるので、いずれかの変数が変更されても他の変数にその変更は影響しない。
 
 ### [Return to Contents](#contents)
