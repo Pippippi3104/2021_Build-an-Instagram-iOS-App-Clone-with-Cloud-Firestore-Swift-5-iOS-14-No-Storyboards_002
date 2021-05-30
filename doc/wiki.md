@@ -5,6 +5,7 @@
 - [Section001](#sec001)
 - [Section002](#sec002)
 - [Section003](#sec003)
+- [Section004](#sec004)
 
 <a id="sec001"></a>
 
@@ -53,7 +54,7 @@
 
 <a id="sec003"></a>
 
-# Section001
+# Section003
 
 - Controller の階層
 
@@ -72,5 +73,27 @@
   - [Struct](https://qiita.com/yuinchirn/items/98b568d595650eca3334)
     - 参照型であるクラスは複数の変数に代入されても、一つのオブジェクトを共有しているので、いずれかの変数の値が変更されれば、他の変数にもそれが反映される。
     - 値型である構造体は、複数の変数に代入された場合、新しい構造体として代入されるので、いずれかの変数が変更されても他の変数にその変更は影響しない。
+
+### [Return to Contents](#contents)
+
+<a id="sec004"></a>
+
+# Section004
+
+- Firebase との接続
+  - Pod init & Pod install
+    - この辺インストールしとく
+      - pod 'Firebase/Core'
+      - pod 'Firebase/Database'
+      - pod 'Firebase/Firestore'
+      - pod 'Firebase/Storage'
+      - pod 'Firebase/Messaging'
+      - pod 'Firebase/Auth'
+      - pod 'ActiveLabel'
+      - pod 'SDWebImage','~>4.4.2'
+      - pod 'JGProgressHUD','~>2.0.3'
+      - pod 'YPImagePicker'
+  - AppDelegate.swift を変更する
+    - func application に FirebaseApp.configure() を追記する
 
 ### [Return to Contents](#contents)
