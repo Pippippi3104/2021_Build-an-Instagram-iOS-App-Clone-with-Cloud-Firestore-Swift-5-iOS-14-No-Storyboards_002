@@ -95,5 +95,11 @@
       - pod 'YPImagePicker'
   - AppDelegate.swift を変更する
     - func application に FirebaseApp.configure() を追記する
+- Memo
+  - [Closures(@escaping)](https://note.com/dngri/n/n9788f8aef35f)
+    - エスケープクロージャのよくある例として、非同期処理をする完了ハンドラとしてのクロージャがあります。
+    - 関数に渡されたハンドラは、開始すると再び関数に戻ります。
+    - ただし、そのクロージャがいつ呼び出されるかは決まっておらず、実際にはハンドラ完了後です。
+    - 関数の実行が完了した後にクロージャを呼び出すためには、エスケープしておく必要があります
 
 ### [Return to Contents](#contents)
